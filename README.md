@@ -4,3 +4,4 @@ Comprehensive list of projects to practice DevOps concepts
 - Setup LAMP/Wordpress on Ubuntu VM
 - Setup both using VM provisioning- Automating the tasks
 - Setup VM automation locally with Vprofile project
+- Systemctl, systemd and creation of config file in /etc/systemd/system/ for services(Apache Tomcat 10)
