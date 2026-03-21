@@ -6,3 +6,4 @@ Comprehensive list of projects to practice DevOps concepts
 - Setup VM automation locally with Vprofile project
 - Systemctl, systemd and creation of config file in /etc/systemd/system/ for services(Apache Tomcat 10)
 - Deploying Java based Multi-tier webapp on local VMs using Vagrant. Services: Mariadb(MYSQL), Memcached(Database cache), RabbitMQ(Queueing agent), Apache Tomcat(Java servlet container), NGINX(Frontend load balancer)
+- Bash Script. Websetup on remote host using SSH command. Setting up ssh-keys on CentOS and Ubuntu
