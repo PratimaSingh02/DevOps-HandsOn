@@ -14,4 +14,4 @@ Comprehensive list of projects to practice DevOps concepts
 4. Installing tools like maven, JDK on Jenkins server
 5. Installing plugins and updating the configuration in System Global settings
 6. Artifact versioning using Environment variables and parameters passed to the job.
-7. Continuous Integration Pipeline using Declarative Pipeline. Here we also setup sonarQube for code analysis, Nexus for uploading artifact on AWS EC2.
+7. Continuous Integration Pipeline using Declarative Pipeline. Here we also setup sonarQube for code analysis, Nexus for uploading artifact, on AWS EC2. Also integrating with Slack for post build notifications.
