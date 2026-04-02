@@ -1,0 +1,43 @@
+//this pipeline will be executed on the node labeled "TEST" and it will use Maven 3.9 and JDK 17 to build the project. The pipeline has three stages: fetching the code from the Git repository, running unit tests, and building the project while skipping tests. If the build is successful, it will archive the generated WAR files from the target directory.
+pipeline {
+	agent {
+            label 'TEST'
+     
+        }
+	tools {
+	    maven "MAVEN3.9" //because it's installed via the global tool configuration with the name "MAVEN3.9"
+	    jdk "JDK17"
+	}
+
+	stages {
+	    stage('Fetch code') {
+            steps {
+               git branch: 'atom', url: 'https://github.com/hkhcoder/vprofile-project.git'
+            }
+
+	    }
+
+
+       stage('UNIT TEST') {
+            steps{
+                sh 'mvn test'
+            }
+        }
+
+
+	    stage('Build'){
+	        steps{
+	           sh 'mvn install -DskipTests'
+	        }
+
+	        post {
+	           success {
+	              echo 'Now Archiving it...'
+	              archiveArtifacts artifacts: '**/target/*.war'
+	           }
+	        }
+	    }
+
+	    
+	}
+}
