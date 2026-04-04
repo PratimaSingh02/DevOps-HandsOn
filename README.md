@@ -7,22 +7,23 @@ Comprehensive list of projects to practice DevOps concepts
 - Systemctl, systemd and creation of config file in /etc/systemd/system/ for services(Apache Tomcat 10)
 - Deploying Java based Multi-tier webapp on local VMs using Vagrant. Services: Mariadb(MYSQL), Memcached(Database cache), RabbitMQ(Queueing agent), Apache Tomcat(Java servlet container), NGINX(Frontend load balancer)
 - Bash Script. Websetup on remote host using SSH command. Setting up ssh-keys on CentOS and Ubuntu
-- Jenkins:
-1. Jenkins installation on EC2 instance (JDK required)
-2. Jenkins installation on docker container
-3. Jenkins jobs. Creating first Freestyle job
-4. Installing tools like maven, JDK on Jenkins server
-5. Installing plugins and updating the configuration in System Global settings
-6. Artifact versioning using Environment variables and parameters passed to the job.
-7. Continuous Integration Pipeline using Declarative Pipeline. Here we also setup sonarQube for code analysis, Nexus for uploading artifact, on AWS EC2. Also integrating with Slack for post build notifications.
-8. Deploying the Vprofile app on AWS ECS by using AWS ECR for storing the docker image of this app.
-9. Agents in Jenkins. How to add agents. Run job on a node/agent.
-10. Authentication and Authorization on Jenkins for multiple users.
+  
+2. Jenkins:
+- Jenkins installation on EC2 instance (JDK required)
+- Jenkins installation on docker container
+- Jenkins jobs. Creating first Freestyle job
+- Installing tools like maven, JDK on Jenkins server
+- Installing plugins and updating the configuration in System Global settings
+- Artifact versioning using Environment variables and parameters passed to the job.
+- Continuous Integration Pipeline using Declarative Pipeline. Here we also setup sonarQube for code analysis, Nexus for uploading artifact, on AWS EC2. Also integrating with Slack for post build notifications.
+- Deploying the Vprofile app on AWS ECS by using AWS ECR for storing the docker image of this app.
+- Agents in Jenkins. How to add agents. Run job on a node/agent.
+- Authentication and Authorization on Jenkins for multiple users.
 
--GitHub Actions
-1. Workflows, Jobs, Steps, Runner (mainly Ubuntu), Action(reusuable automation code) YAML
-2. Use cases: CI/CD, Testing, Code analysis, etc
-3. Environment (dev, QA, staging, production), secrets and variables
-4. Defining variables in the workflow (main.yml)
-5. Triggers: Push, Pull request, workflow dispatch (schedule)
-6. CI/CD: Building, testing, scanning the vprofile app. Building, tagging and publish the docker image to Amazon ECR using avaialble actions and code. Storing IAM access keys for ECR in secrets.
+3. GitHub Actions
+- Workflows, Jobs, Steps, Runner (mainly Ubuntu), Action(reusuable automation code) YAML
+-  Use cases: CI/CD, Testing, Code analysis, etc
+- Environment (dev, QA, staging, production), secrets and variables
+- Defining variables in the workflow (main.yml)
+- Triggers: Push, Pull request, workflow dispatch (schedule)
+- CI/CD: Building, testing, scanning the vprofile app. Building, tagging and publish the docker image to Amazon ECR using avaialble actions and code. Storing IAM access keys for ECR in secrets.
