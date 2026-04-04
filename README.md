@@ -18,3 +18,11 @@ Comprehensive list of projects to practice DevOps concepts
 8. Deploying the Vprofile app on AWS ECS by using AWS ECR for storing the docker image of this app.
 9. Agents in Jenkins. How to add agents. Run job on a node/agent.
 10. Authentication and Authorization on Jenkins for multiple users.
+
+-GitHub Actions
+1. Workflows, Jobs, Steps, Runner (mainly Ubuntu), Action(reusuable automation code) YAML
+2. Use cases: CI/CD, Testing, Code analysis, etc
+3. Environment (dev, QA, staging, production), secrets and variables
+4. Defining variables in the workflow (main.yml)
+5. Triggers: Push, Pull request, workflow dispatch (schedule)
+6. CI/CD: Building, testing, scanning the vprofile app. Building, tagging and publish the docker image to Amazon ECR using avaialble actions and code. Storing IAM access keys for ECR in secrets.
