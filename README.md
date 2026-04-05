@@ -37,3 +37,6 @@ Comprehensive list of projects to practice DevOps concepts
 - Triggers & Rules
 - Code scanning stage with Trivy 
 - Build and publish docker image on GitLab Container Registry
+- DevSecOps: Shift Left approach, SAST, DAST, SCA, IAST, API security
+- Enterprise level tools for implementing DevSecOps
+- SonarCloud
