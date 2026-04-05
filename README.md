@@ -27,3 +27,13 @@ Comprehensive list of projects to practice DevOps concepts
 - Defining variables in the workflow (main.yml)
 - Triggers: Push, Pull request, workflow dispatch (schedule)
 - CI/CD: Building, testing, scanning the vprofile app. Building, tagging and publish the docker image to Amazon ECR using avaialble actions and code. Storing IAM access keys for ECR in secrets.
+
+4. GitLab
+- GitLab Introduction: SCM, CICD, Security, Registry & Repository, Monitoring & Analaytics, Project & Team management
+- Users, Groups, Projects
+- Connect local system to GitLab with ssh keys
+- Runners, Executors (Docker and Shell)
+- CI Pipeline
+- Triggers & Rules
+- Code scanning stage with Trivy 
+- Build and publish docker image on GitLab Container Registry
