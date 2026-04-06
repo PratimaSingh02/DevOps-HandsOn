@@ -39,4 +39,5 @@ Comprehensive list of projects to practice DevOps concepts
 - Build and publish docker image on GitLab Container Registry
 - DevSecOps: Shift Left approach, SAST, DAST, SCA, IAST, API security
 - Enterprise level tools for implementing DevSecOps
-- SonarCloud
+- Implement SAST in GitLab Pipeline using SonarCloud(SaaS)
+- Add quality gates to SAST job in the pipeline to fail the build if quality gate fails. Set thresholds in quality gate to pass/fail.
