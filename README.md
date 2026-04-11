@@ -42,3 +42,4 @@ Comprehensive list of projects to practice DevOps concepts
 - Implement SAST in GitLab Pipeline using SonarCloud(SaaS)
 - Add quality gates to SAST job in the pipeline to fail the build if quality gate fails. Set thresholds in quality gate to pass/fail.
 - Software Composition Analysis using Snyk. Criteria to integrate Snyk with GitLab Pipeline.
+- Dynamic Application Security Testing (DAST) using OWASP ZAP tool
