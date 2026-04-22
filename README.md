@@ -45,3 +45,10 @@ Comprehensive list of projects to practice DevOps concepts
 - Dynamic Application Security Testing (DAST) using OWASP ZAP tool
 - Reporting the results on JIRA
 - DAST and SAST analyzers by GitLab Premium
+
+5. Containerization with Docker
+- What is containerization? How is it different from virtualization?
+- Docker engine, docker CLI, docker compose
+- Docker commands
+- Multistage Dockerfile in YAML
+- Containerizing Vprofile app on ubuntu VM and pushing the docker images to dockerhub registry
