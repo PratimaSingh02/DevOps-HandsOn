@@ -52,3 +52,4 @@ Comprehensive list of projects to practice DevOps concepts
 - Docker commands
 - Multistage Dockerfile in YAML
 - Containerizing Vprofile app on ubuntu VM and pushing the docker images to dockerhub registry
+- Containerizing an EMart application that uses Angular(Client), Nginx(Loadbalancer), NodeJS(API), Java(BooksAPI), MongoDB(NoSQL db), MySQL- using docker compose
