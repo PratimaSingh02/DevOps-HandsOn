@@ -53,3 +53,16 @@ Comprehensive list of projects to practice DevOps concepts
 - Multistage Dockerfile in YAML
 - Containerizing Vprofile app on ubuntu VM and pushing the docker images to dockerhub registry
 - Containerizing an EMart application that uses Angular(Client), Nginx(Loadbalancer), NodeJS(API), Java(BooksAPI), MongoDB(NoSQL db), MySQL- using docker compose
+
+3. Kubernetes (K8s)
+- What is K8s?
+- K8s basic architecture: master and worker nodes
+- Master processes: KubeAPI, Controller Manager, Scheduler
+- ETCD: Cluster brain
+- Worker processes: Kubelet, Container Runtime Environment (CRE), Kube Proxy
+- KubeCTL: Command line utility to connect to K8s API server (KubeAPI)
+- K8s components: Deployments, Pods, Service, ConfigMap, Secret
+- Using Minikube to create one-node cluster. We use Docker as our virtualization driver
+- KubeCTL basic commands
+- Writing K8s configuration files for deployment, service
+- Setting up MongoDB and MongoExpress using K8s components with configuration files
