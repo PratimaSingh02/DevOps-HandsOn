@@ -66,3 +66,5 @@ Comprehensive list of projects to practice DevOps concepts
 - KubeCTL basic commands
 - Writing K8s configuration files for deployment, service
 - Setting up MongoDB and MongoExpress using K8s components with configuration files
+
+4. Terraform
